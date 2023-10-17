@@ -1,0 +1,75 @@
+header
+{
+    text-align: center;
+    font-size:xx-large;
+    padding: 20px;
+    background-color:#F8F0E5 ;
+}
+nav
+{
+    margin: 3px;
+    background-color:#176B87;
+}
+ul
+{
+    display: inline-flex;
+    text-decoration: none;
+    list-style-type: none;
+}
+a
+{
+    text-decoration: none;
+    padding: 5px;
+}
+li :hover
+{
+    background-color:whitesmoke;
+    border-radius: 5px;
+
+}
+li
+{
+    padding: 5px;
+    text-decoration: none;
+}
+
+.men
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px  ;
+    grid-template-rows:600px 600px ;
+    margin-left : 100px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    margin-left : 15px;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
